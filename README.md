@@ -1,4 +1,4 @@
-# Mergesort in C++
+# Merge Sort in C++
 
 To test it out, type:
 
