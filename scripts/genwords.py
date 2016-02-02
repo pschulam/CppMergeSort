@@ -15,6 +15,7 @@ _WORDS = '/usr/share/dict/words'
 def main(num_words, seed):
     """Entry point of the script."""
     random.seed(seed)
+
     with open(_WORDS) as f:
         words = [l.strip() for l in f]
 
