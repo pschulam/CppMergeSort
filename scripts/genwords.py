@@ -6,6 +6,8 @@ Usage: genwords.py NUM SEED
 
 import random
 
+from docopt import docopt
+
 
 _WORDS = '/usr/share/dict/words'
 
@@ -23,6 +25,5 @@ def main(num_words, seed):
 
 
 if __name__ == '__main__':
-    from docopt import docopt
     ARGS = docopt(__doc__)
     main(int(ARGS['NUM']), int(ARGS['SEED']))
